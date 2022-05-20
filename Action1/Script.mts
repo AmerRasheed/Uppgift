@@ -1,4 +1,4 @@
-﻿
+﻿'Added comments for UFT 
 command = "chrome -disable-session-crashed-bubble " & "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_radio"
 Set objBrowser = CreateObject("Wscript.Shell")
 objBrowser.Run(command)
